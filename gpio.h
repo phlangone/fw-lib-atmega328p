@@ -14,12 +14,12 @@
 
 #include <avr/io.h>
 
-#define INPUT			0
+#define INPUT		0
 #define INPUT_PULLUP	1
-#define OUTPUT			2
+#define OUTPUT		2
 
-#define HIGH			1
-#define LOW				0
+#define HIGH		1
+#define LOW		0
 
 /*
  *	Function Prototypes
@@ -29,7 +29,7 @@ void gpio_write(uint8_t pin_num, uint8_t pin_level);
 uint8_t gpio_read(uint8_t pin_num);
 
 /*
- *	@brief Configure pin mode
+ *  @brief Configure pin mode
  *  @param uint8_t pin_num arduino pin number
  *  @param uint8_t pin_mode selected pin mode (see macros)
  */
@@ -77,7 +77,7 @@ void gpio_mode(uint8_t pin_num, uint8_t pin_mode)
 }
 
 /*
- *	@brief Write a logic level in a pin
+ *  @brief Write a logic level in a pin
  *  @param uint8_t pin_num arduino pin number
  *  @param uint8_t pin_level level (see macros) to be written in the selected pin
  */
@@ -109,7 +109,7 @@ void gpio_write(uint8_t pin_num, uint8_t pin_level)
 }
 
 /*
- *	@brief Read the logic level in a pin
+ *  @brief Read the logic level in a pin
  *  @param uint8_t pin_num arduino pin number
  *  @return uint8_t logic level read in selected pin
  */
