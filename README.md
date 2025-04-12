@@ -12,3 +12,5 @@ Folhas já implementadas:
 * usart.h ---> Funções para utilização do periférico USART do ATmega328P
   
 * adc.h   ---> Funções para utilização do periférico ADC do ATmega328P
+
+* gpio.h ---> Funções para utilização dos GPIOs do ATmega328P
