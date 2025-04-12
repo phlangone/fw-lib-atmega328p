@@ -1,8 +1,10 @@
 /*
- * adc.c
+ * adc.h
  *
  * Created: 05/04/2025 11:08:43
  * Author : Paulo H. Langone
+* Library for ATMega328P Analogic to Digital Converter (ADC) usage
+ * F_CPU = 16 MHz
  */ 
 
 #ifndef ADC_H
