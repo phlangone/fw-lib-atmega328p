@@ -14,3 +14,5 @@ Folhas já implementadas:
 * adc.h   ---> Funções para utilização do periférico ADC do ATmega328P
 
 * gpio.h ---> Funções para utilização dos GPIOs do ATmega328P
+
+* lcd.h ---> Funções para utilização do display LCD baseado no driver HD44780
